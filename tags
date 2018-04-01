@@ -1,0 +1,240 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+App	ttkTable.py	/^class App(Frame):$/;"	c
+Archname	module/Nodryrun.py	/^Archname = " --target-arch " # must be a " " blank follow as delimiter$/;"	v
+Archname	module/VulcanMain.py	/^Archname = " --target-arch " # must be a " " blank follow as delimiter$/;"	v
+Buttons	module/DicCmdParent.py	/^class Buttons(Frame):$/;"	c
+CheckBtn	module/DicChdRadio.py	/^class CheckBtn(Buttons):$/;"	c
+CmdOptmenu	module/DicCmdOptmenu.py	/^class CmdOptmenu(Frame):$/;"	c
+CreateUI	ttkTable.py	/^    def CreateUI(self):$/;"	m	class:App
+CustomCLEntry	module/EvalCmdChdCL.py	/^class CustomCLEntry(LabelEntBtn):$/;"	c
+CustomTagEntry	module/EvalCmdChdTag.py	/^class CustomTagEntry(LabelEntBtn):$/;"	c
+CustomizedButton	module/EvalCmdChdCL.py	/^    def CustomizedButton(self):$/;"	m	class:CustomCLEntry
+CustomizedButton	module/EvalCmdChdProd.py	/^    def CustomizedButton(self):$/;"	m	class:ProdFile
+CustomizedButton	module/EvalCmdChdTag.py	/^    def CustomizedButton(self):$/;"	m	class:CustomTagEntry
+CustomizedButton	module/EvalCmdParent.py	/^    def CustomizedButton(self,delimiter):$/;"	m	class:LabelEntBtn
+CustomizedButton	module/ProdOptmenu.py	/^    def CustomizedButton(self):$/;"	m	class:ProdFile
+DictArch	module/Nodryrun.py	/^DictArch= {$/;"	v
+DictArch	module/VulcanMain.py	/^DictArch= {$/;"	v
+DictCfg	module/Nodryrun.py	/^DictCfg = {$/;"	v
+DictCfg	module/VulcanMain.py	/^DictCfg = {$/;"	v
+DictGPU	DicCmdCheck.py	/^DictGPU= {$/;"	v
+DictGPU	DicCmdMButton.py	/^DictGPU= {$/;"	v
+DictGPU	module/DicChdRadio.py	/^DictGPU= {$/;"	v
+DictGPU	module/Nodryrun.py	/^DictGPU= {$/;"	v
+DictGPU	module/VulcanMain.py	/^DictGPU= {$/;"	v
+DictOS	DicCmdCheck.py	/^DictOS= {$/;"	v
+DictOS	DicCmdMButton.py	/^DictOS= {$/;"	v
+DictOS	module/DicChdRadio.py	/^DictOS= {$/;"	v
+DictOS	module/Nodryrun.py	/^DictOS= {$/;"	v
+DictOS	module/VulcanMain.py	/^DictOS= {$/;"	v
+DictPick	module/DicCmdOptmenu.py	/^DictPick = {$/;"	v
+DictSuites	module/DicChdMBtn.py	/^DictSuites= {$/;"	v
+DictTest	module/DicChdMBtn.py	/^DictTest= {$/;"	v
+DictTest	module/Nodryrun.py	/^DictTest= {$/;"	v
+DictTest	module/VulcanMain.py	/^DictTest= {$/;"	v
+GPUname	DicCmdCheck.py	/^GPUname = "target GPU"$/;"	v
+GPUname	DicCmdMButton.py	/^GPUname = "target GPU"$/;"	v
+GPUname	module/DicChdRadio.py	/^GPUname = "--target-gpu"$/;"	v
+GPUname	module/Nodryrun.py	/^GPUname = " --target-gpu " # must be a " " blank follow as delimiter$/;"	v
+GPUname	module/VulcanMain.py	/^GPUname = " --target-gpu " # must be a " " blank follow as delimiter$/;"	v
+LabelEntBtn	module/EvalCmdParent.py	/^class LabelEntBtn(Frame):$/;"	c
+LoadTable	ttkTable.py	/^    def LoadTable(self):$/;"	m	class:App
+MBtn	module/DicChdMBtn.py	/^class MBtn(Buttons):$/;"	c
+MyText	module/ThreadCmd.py	/^    MyText = ScrolledText(Toplevel())$/;"	v	class:ThreadCmd
+OSname	DicCmdCheck.py	/^OSname = "target OS"$/;"	v
+OSname	DicCmdMButton.py	/^OSname = "target OS"$/;"	v
+OSname	module/DicChdRadio.py	/^OSname = "--target-os"$/;"	v
+OSname	module/Nodryrun.py	/^OSname = " --target-os " # must be a " " blank follow as delimiter$/;"	v
+OSname	module/VulcanMain.py	/^OSname = " --target-os " # must be a " " blank follow as delimiter$/;"	v
+Optmenu	module/CmdOptmenu.py	/^class Optmenu(Frame):$/;"	c
+ProdFile	module/EvalCmdChdProd.py	/^class ProdFile(CmdOptmenu):$/;"	c
+ProdFile	module/ProdOptmenu.py	/^class ProdFile(LabelEntBtn):$/;"	c
+Quitter	quitter.py	/^class Quitter(Frame):                          # subclass our GUI$/;"	c
+ScrolledText	draft/scrolledtext.py	/^class ScrolledText(Frame):$/;"	c
+SetOptions	DicCmdMButton.py	/^    def SetOptions(self,OptList):$/;"	m	class:TargetItem
+SetOptions	module/DicChdMBtn.py	/^    def SetOptions(self,OptList):$/;"	m	class:MBtn
+SetOptions	module/DicChdRadio.py	/^    def SetOptions(self,OptList):$/;"	m	class:CheckBtn
+SetOptions	module/DicCmdParent.py	/^    def SetOptions(self,OptList):$/;"	m	class:Buttons
+SimpleEditor	draft/simpleedit.py	/^class SimpleEditor(ScrolledText):                         # see PyEdit for more$/;"	c
+SimpleEditor	module/CmdEdit.py	/^class SimpleEditor(Frame):                         # see PyEdit for more$/;"	c
+Suitesname	module/DicChdMBtn.py	/^Suitesname = "--target-suites "$/;"	v
+TargetItem	CmdCheck.py	/^class TargetItem(Frame):$/;"	c
+TargetItem	DicCmdCheck.py	/^class TargetItem(Frame):$/;"	c
+TargetItem	DicCmdMButton.py	/^class TargetItem(Frame):$/;"	c
+Testname	module/DicChdMBtn.py	/^Testname = "--tests "$/;"	v
+Testname	module/Nodryrun.py	/^Testname = " --testsuite " # must be a " " blank follow as delimiter$/;"	v
+Testname	module/VulcanMain.py	/^Testname = " --testsuite " # must be a " " blank follow as delimiter$/;"	v
+TextEditor	module/TextEditor.py	/^class TextEditor():                     # see PyEdit for more$/;"	c
+ThreadCmd	module/ThreadCmd.py	/^class ThreadCmd():$/;"	c
+__init__	CmdCheck.py	/^    def __init__(self, parent=None, text='NULL',picks=[],rowNum=0,colNum=0):$/;"	m	class:TargetItem
+__init__	DicCmdCheck.py	/^    def __init__(self, parent=None, text='NULL',picks={},rowNum=0,colNum=0):$/;"	m	class:TargetItem
+__init__	DicCmdMButton.py	/^    def __init__(self, parent=None, text='NULL',picks={},rowNum=0,colNum=0):$/;"	m	class:TargetItem
+__init__	draft/scrolledtext.py	/^    def __init__(self, parent=None, text='', file=None):$/;"	m	class:ScrolledText
+__init__	draft/simpleedit.py	/^    def __init__(self, parent=None, file=None):$/;"	m	class:SimpleEditor
+__init__	module/CmdEdit.py	/^    def __init__(self, parent=Toplevel(), file=None):$/;"	m	class:SimpleEditor
+__init__	module/CmdOptmenu.py	/^    def __init__(self, parent=None, text='NULL',picks=[],rowNum=0,colNum=0):$/;"	m	class:Optmenu
+__init__	module/DicCmdOptmenu.py	/^    def __init__(self, parent=None, text='NULL',picks={},rowNum=0,colNum=0):$/;"	m	class:CmdOptmenu
+__init__	module/DicCmdParent.py	/^    def __init__(self, parent=None, text='Unknown-Button',picks={},rowNum=0,colNum=0):$/;"	m	class:Buttons
+__init__	module/EvalCmdParent.py	/^    def __init__(self, parent=None, text='Unknown',VarType='NULL',delimiter='NULL',rowNum=0,colNum=0):$/;"	m	class:LabelEntBtn
+__init__	module/TextEditor.py	/^    def __init__(self, parent=None):$/;"	m	class:TextEditor
+__init__	module/ThreadCmd.py	/^    def __init__(self, log=None ,MyText=None, cmdline=''):$/;"	m	class:ThreadCmd
+__init__	quitter.py	/^    def __init__(self, parent=None):           # constructor method$/;"	m	class:Quitter
+__init__	ttkTable.py	/^    def __init__(self, parent):$/;"	m	class:App
+addComponents	DicCmdAll-frm.py	/^def addComponents(root):$/;"	f
+addComponents	cmdAll-frm.py	/^def addComponents(root):$/;"	f
+cfg	module/CmdEntry.py	/^    cfg= StringVar()$/;"	v
+clNum	module/CmdEntry.py	/^    clNum= IntVar()$/;"	v
+cmdElement	module/Nodryrun.py	/^cmdElement = []$/;"	v
+cmdElement	module/VulcanMain.py	/^cmdElement = []$/;"	v
+col	CmdCheck.py	/^    col=0 $/;"	v	class:TargetItem
+col	DicCmdCheck.py	/^    col=0 $/;"	v	class:TargetItem
+col	DicCmdMButton.py	/^    col=0 $/;"	v	class:TargetItem
+col	module/CmdOptmenu.py	/^    col=0 $/;"	v	class:Optmenu
+col	module/DicCmdOptmenu.py	/^    col=0 $/;"	v	class:CmdOptmenu
+col	module/DicCmdParent.py	/^    col=0 $/;"	v	class:Buttons
+col	module/EvalCmdParent.py	/^    col=0 $/;"	v	class:LabelEntBtn
+consumer	module/Nodryrun.py	/^def consumer(TextWin):$/;"	f
+consumer	module/VulcanMain.py	/^def consumer(TextWin):$/;"	f
+consumer	module/jia-queue-gui.py	/^def consumer(root):$/;"	f
+dataQueue	module/Nodryrun.py	/^dataQueue = queue.Queue() $/;"	v
+dataQueue	module/VulcanMain.py	/^dataQueue = queue.Queue() $/;"	v
+dataQueue	module/jia-queue-gui.py	/^dataQueue = queue.Queue()    # infinite size$/;"	v
+dbg	module/CmdOptmenu.py	/^dbg= False$/;"	v
+dbg	module/DicChdMBtn.py	/^dbg = False$/;"	v
+dbg	module/DicChdRadio.py	/^dbg = False$/;"	v
+dbg	module/DicCmdOptmenu.py	/^dbg = False$/;"	v
+dbg	module/DicCmdParent.py	/^dbg=True$/;"	v
+dbg	module/EvalCmdChdCL.py	/^dbg=False $/;"	v
+dbg	module/EvalCmdChdProd.py	/^dbg=False$/;"	v
+dbg	module/EvalCmdChdTag.py	/^dbg=False$/;"	v
+dbg	module/EvalCmdParent.py	/^dbg=False$/;"	v
+dbg	module/ProdOptmenu.py	/^dbg=False$/;"	v
+demoModules	DicCmdAll-frm.py	/^demoModules = ['DicCmdCheck','DicCmdOptmenu']$/;"	v
+demoModules	cmdAll-frm.py	/^demoModules = ['CmdCheck','CmdOptmenu']$/;"	v
+dumpState	DicCmdAll-frm.py	/^def dumpState():$/;"	f
+dumpState	cmdAll-frm.py	/^def dumpState():$/;"	f
+gettext	draft/scrolledtext.py	/^    def gettext(self):                                   # returns a string$/;"	m	class:ScrolledText
+gettext	module/TextEditor.py	/^    def gettext(self):                                   # returns a string$/;"	m	class:TextEditor
+getval	DicCmdMButton.py	/^    def getval(self):$/;"	m	class:TargetItem
+main	ttkTable.py	/^def main():$/;"	f
+makethreads	module/jia-queue-gui.py	/^def makethreads():$/;"	f
+makewidgets	draft/scrolledtext.py	/^    def makewidgets(self):$/;"	m	class:ScrolledText
+myCmd	module/ThreadCmd.py	/^    myCmd = ThreadCmd(MyText=MyText, cmdline='.\/msgloop.py').text.mainloop()$/;"	v	class:ThreadCmd
+name	CmdCheck.py	/^name = "target OS"$/;"	v
+name	module/CmdOptmenu.py	/^name = 'Test Suite'$/;"	v
+onCut	draft/simpleedit.py	/^    def onCut(self):$/;"	m	class:SimpleEditor
+onCut	module/CmdEdit.py	/^    def onCut(self):$/;"	m	class:SimpleEditor
+onCut	module/TextEditor.py	/^    def onCut(self):$/;"	m	class:TextEditor
+onFind	draft/simpleedit.py	/^    def onFind(self):$/;"	m	class:SimpleEditor
+onFind	module/CmdEdit.py	/^    def onFind(self):$/;"	m	class:SimpleEditor
+onFind	module/TextEditor.py	/^    def onFind(self):$/;"	m	class:TextEditor
+onPaste	draft/simpleedit.py	/^    def onPaste(self):                                    # add clipboard text$/;"	m	class:SimpleEditor
+onPaste	module/CmdEdit.py	/^    def onPaste(self):                                    # add clipboard text$/;"	m	class:SimpleEditor
+onPaste	module/TextEditor.py	/^    def onPaste(self):                                    # add clipboard text$/;"	m	class:TextEditor
+onSave	draft/simpleedit.py	/^    def onSave(self):$/;"	m	class:SimpleEditor
+onSave	module/CmdEdit.py	/^    def onSave(self):$/;"	m	class:SimpleEditor
+onSave	module/TextEditor.py	/^    def onSave(self):$/;"	m	class:TextEditor
+p1	draft/RedirectGUI.py	/^p1 = sub.Popen(['ps','-aux'],stdout=sub.PIPE,stderr=sub.PIPE)$/;"	v
+p2	draft/RedirectGUI.py	/^p2 = sub.Popen(['pwd'],stdout=sub.PIPE,stderr=sub.PIPE)$/;"	v
+parts	DicCmdAll-frm.py	/^parts = []$/;"	v
+parts	cmdAll-frm.py	/^parts = []$/;"	v
+pickArch	module/Nodryrun.py	/^pickArch = ['x86_64','ppc64le']$/;"	v
+pickArch	module/VulcanMain.py	/^pickArch = ['x86_64','ppc64le']$/;"	v
+pickGPU	DicCmdCheck.py	/^pickGPU = ['v40','t100','no']$/;"	v
+pickGPU	DicCmdMButton.py	/^pickGPU = ['v40','t100','no']$/;"	v
+pickGPU	module/DicChdRadio.py	/^pickGPU = ['v40','t100','no']$/;"	v
+pickGPU	module/Nodryrun.py	/^pickGPU = ['gv100sxm2','gv100titan','v100','p4','gp102titanX','gp100sxm2','p40',$/;"	v
+pickGPU	module/VulcanMain.py	/^pickGPU = ['gv100sxm2','gv100titan','v100','p4','gp102titanX','p40',$/;"	v
+pickOS	DicCmdCheck.py	/^pickOS = ['u16','win7','unknown']$/;"	v
+pickOS	DicCmdMButton.py	/^pickOS = ['u16','win7','unknown']$/;"	v
+pickOS	module/DicChdRadio.py	/^pickOS = ['u16','win7','unknown']$/;"	v
+pickOS	module/Nodryrun.py	/^pickOS = ['Ubuntu16_04','RHEL7_3','Windows10','Ubuntu14_04','Windows2012R2','Windows7','Mac10_13']$/;"	v
+pickOS	module/VulcanMain.py	/^pickOS = ['Ubuntu16_04','RHEL7_3','Windows10','Ubuntu14_04','Windows2012R2','Windows7','Mac10_13']$/;"	v
+pickProd	module/DicCmdOptmenu.py	/^pickProd= {'cudnn':'A','cuda':'B','tensorRT':'C'}$/;"	v
+pickProd	module/Nodryrun.py	/^pickProd= {'cudnn cuda9.1 r387 ':'\/\/sw\/gpgpu\/MachineLearning\/cudnn\/eris\/cudnn_r91_r387.vlcp',$/;"	v
+pickProd	module/VulcanMain.py	/^pickProd= {'cudnn cuda9.1 r387 ':'\/\/sw\/gpgpu\/MachineLearning\/cudnn\/eris\/cudnn_r91_r387.vlcp',$/;"	v
+pickSuites	module/DicChdMBtn.py	/^pickSuites = ['mnist','RNN','none']$/;"	v
+pickTests	module/DicChdMBtn.py	/^pickTests= ['layer','sample','unknown']$/;"	v
+pickTests	module/Nodryrun.py	/^pickTests= ['conv_sample','cudnn_layer_tests','cudnn_level_tests_L3',$/;"	v
+pickTests	module/VulcanMain.py	/^pickTests= ['conv_sample','cudnn_layer_tests','cudnn_level_tests_L3',$/;"	v
+picklist	CmdCheck.py	/^picklist = ['u16','win7','unknown']$/;"	v
+picklist	module/CmdOptmenu.py	/^picklist= ['layer','sample','none']$/;"	v
+producer	module/Nodryrun.py	/^def producer(dataq):$/;"	f
+producer	module/VulcanMain.py	/^def producer(dataq):$/;"	f
+producer	module/jia-queue-gui.py	/^def producer(out, dataq): #(id):$/;"	f
+quit	quitter.py	/^    def quit(self):$/;"	m	class:Quitter
+report	CmdCheck.py	/^    def report(self):$/;"	m	class:TargetItem
+report	DicCmdCheck.py	/^    def report(self):$/;"	m	class:TargetItem
+report	module/CmdOptmenu.py	/^    def report(self):$/;"	m	class:Optmenu
+report	module/DicChdMBtn.py	/^    def report(self):$/;"	m	class:MBtn
+report	module/DicChdRadio.py	/^    def report(self):$/;"	m	class:CheckBtn
+report	module/DicCmdParent.py	/^    def report(self):$/;"	m	class:Buttons
+report	module/EvalCmdChdCL.py	/^    def report(self):$/;"	m	class:CustomCLEntry
+report	module/EvalCmdChdProd.py	/^    def report(self):$/;"	m	class:ProdFile
+report	module/EvalCmdChdTag.py	/^    def report(self):$/;"	m	class:CustomTagEntry
+report	module/EvalCmdParent.py	/^    def report(self):$/;"	m	class:LabelEntBtn
+report	module/ProdOptmenu.py	/^    def report(self):$/;"	m	class:ProdFile
+root	CmdCheck.py	/^    root=Tk()$/;"	v
+root	DicCmdAll-frm.py	/^root = Tk()                                             # make explicit root first$/;"	v
+root	DicCmdCheck.py	/^    root=Tk()$/;"	v
+root	DicCmdMButton.py	/^    root=Tk()$/;"	v
+root	cmdAll-frm.py	/^root = Tk()                                             # make explicit root first$/;"	v
+root	draft/RedirectGUI.py	/^root = Tk()$/;"	v
+root	draft/scrolledtext.py	/^    root = Tk()$/;"	v
+root	module/CmdEdit.py	/^    root = Tk()$/;"	v	class:SimpleEditor
+root	module/CmdEntry.py	/^    root=Tk()$/;"	v
+root	module/CmdOptmenu.py	/^    root=Tk()$/;"	v
+root	module/DicChdMBtn.py	/^    root=Tk()$/;"	v	class:MBtn
+root	module/DicChdRadio.py	/^    root=Tk()$/;"	v
+root	module/DicCmdOptmenu.py	/^    root=Tk()$/;"	v
+root	module/EvalCmdChdCL.py	/^    root=Tk()$/;"	v
+root	module/EvalCmdChdProd.py	/^    root=Tk()$/;"	v	class:ProdFile
+root	module/EvalCmdChdTag.py	/^    root=Tk()$/;"	v
+root	module/Nodryrun.py	/^root = Tk() # make explicit root first$/;"	v
+root	module/ProdOptmenu.py	/^    root=Tk()$/;"	v	class:ProdFile
+root	module/TextEditor.py	/^    root=Tk()$/;"	v	class:TextEditor
+root	module/VulcanMain.py	/^root = Tk() # make explicit root first$/;"	v
+row	CmdCheck.py	/^    row=0 $/;"	v	class:TargetItem
+row	DicCmdCheck.py	/^    row=0 $/;"	v	class:TargetItem
+row	DicCmdMButton.py	/^    row=0 $/;"	v	class:TargetItem
+row	module/CmdOptmenu.py	/^    row=0 $/;"	v	class:Optmenu
+row	module/DicCmdOptmenu.py	/^    row=0 $/;"	v	class:CmdOptmenu
+row	module/DicCmdParent.py	/^    row=0 $/;"	v	class:Buttons
+row	module/EvalCmdParent.py	/^    row=0 $/;"	v	class:LabelEntBtn
+runcmd	module/Nodryrun.py	/^def runcmd():$/;"	f
+runcmd	module/VulcanMain.py	/^def runcmd():$/;"	f
+settext	draft/scrolledtext.py	/^    def settext(self, text='', file=None):$/;"	m	class:ScrolledText
+setval	module/DicCmdOptmenu.py	/^    def setval(self,inx):$/;"	m	class:CmdOptmenu
+shCmdline	module/Nodryrun.py	/^shCmdline ='.\/msgloop.py'$/;"	v
+shCmdline	module/VulcanMain.py	/^shCmdline ='.\/msgloop.py'$/;"	v
+show	draft/scrolledtext.py	/^    def show(event): $/;"	f
+showCL	module/Nodryrun.py	/^def showCL(num):$/;"	f
+showCL	module/VulcanMain.py	/^def showCL(num):$/;"	f
+showcmd	module/CmdOptmenu.py	/^    def showcmd(self):$/;"	m	class:Optmenu
+showcmd	module/DicChdMBtn.py	/^    def showcmd(self):$/;"	m	class:MBtn
+showcmd	module/DicChdRadio.py	/^    def showcmd(self):$/;"	m	class:CheckBtn
+showcmd	module/DicCmdOptmenu.py	/^    def showcmd(self):$/;"	m	class:CmdOptmenu
+showcmd	module/DicCmdParent.py	/^    def showcmd(self):$/;"	m	class:Buttons
+showcmd	module/EvalCmdChdCL.py	/^    def showcmd(self):$/;"	m	class:CustomCLEntry
+showcmd	module/EvalCmdChdProd.py	/^    def showcmd(self):$/;"	m	class:ProdFile
+showcmd	module/EvalCmdChdTag.py	/^    def showcmd(self):$/;"	m	class:CustomTagEntry
+showcmd	module/EvalCmdParent.py	/^    def showcmd(self):$/;"	m	class:LabelEntBtn
+showcmd	module/Nodryrun.py	/^def showcmd(cmdElement):$/;"	f
+showcmd	module/ProdOptmenu.py	/^    def showcmd(self):$/;"	m	class:ProdFile
+showcmd	module/VulcanMain.py	/^def showcmd(cmdElement):$/;"	f
+showfile	module/Nodryrun.py	/^def showfile(cfgFile):$/;"	f
+showfile	module/VulcanMain.py	/^def showfile(cfgFile):$/;"	f
+startRow	module/Nodryrun.py	/^startRow = 1$/;"	v
+startRow	module/VulcanMain.py	/^startRow = 1$/;"	v
+threadAction	module/ThreadCmd.py	/^    def threadAction(self):$/;"	m	class:ThreadCmd
+threadChecker	module/ThreadCmd.py	/^    def threadChecker(self, TextWin, dataQueue, delayMsecs=200):       # 10x\/sec, 1\/timer$/;"	m	class:ThreadCmd
+threadconsumer	module/Nodryrun.py	/^def threadconsumer(TextWin):$/;"	f
+threadconsumer	module/VulcanMain.py	/^def threadconsumer(TextWin):$/;"	f
+tools	CmdCheck.py	/^    def tools(self):$/;"	m	class:TargetItem
+vulCmd	module/Nodryrun.py	/^vulCmd ='vulcan -v --eris --db --user jiag '$/;"	v
+vulCmd	module/VulcanMain.py	/^vulCmd ='vulcan -v --eris --db --user jiag --dry-run '$/;"	v
