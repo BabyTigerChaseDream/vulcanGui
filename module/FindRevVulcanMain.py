@@ -47,8 +47,13 @@ from TextEditor import *
 Option menu : 
     - select configuartion files
 """"""""""""""""""""""""""""""""" 
-pickProd= {'cudnn cuda9.1 r387 ':'//sw/gpgpu/MachineLearning/cudnn/eris/cudnn_r91_r387.vlcp',
-           'cudnn cuda_a':'//sw/gpgpu/MachineLearning/cudnn/eris/cudnn_gpgpu_cuda_a.vlcp'}
+pickProd= {'v7.1 cuda9.2 r396 ':'//sw/gpgpu/MachineLearning/cudnn_v7.1/eris/cudnn_r92_r396.vlcp',
+            'v7.1 cuda9.1 r390 ':'//sw/gpgpu/MachineLearning/cudnn_v7.1/eris/cudnn_r91_r390.vlcp',
+            'v7.1 cuda9.0 r384 ':'//sw/gpgpu/MachineLearning/cudnn_v7.1/eris/cudnn_r90_r384.vlcp',
+            'v7.1 cuda8.0 r375 ':'//sw/gpgpu/MachineLearning/cudnn_v7.1/eris/cudnn_r80_r375.vlcp',
+            # TODO : v7.1 weekly
+            'cudnn cuda_a':'//sw/gpgpu/MachineLearning/cudnn/eris/cudnn_gpgpu_cuda_a.vlcp'}
+              
 configname = '--product=' # must be a "=" blank follow as delimiter
 DictCfg = {
             configname:pickProd,
@@ -99,8 +104,8 @@ Regression manual submit cmdline
 #TODO: better data structure ?
 
 cmdElement = []
-vulCmd ='vulcan -v --eris --db --user jiag --dry-run '
-#vulCmd ='vulcan -v --eris --db --user jiag '
+#vulCmd ='vulcan -v --eris --db --user jiag --dry-run '
+vulCmd ='vulcan -v --eris --db --user jiag '
 cmdline = ''
 shCmdline ='./msgloop.py'
 
@@ -111,6 +116,13 @@ def showCL(num):
 #Get CL number
 def showfile(cfgFile):
     print("Filepath:",cfgFile.get())
+
+# run all CLs cmdline , replace "tot" to CL num
+def RUNAllCLs(cmdline,CLList):
+    for data in CLList:
+        print('===>Full cmd : ',cmdline.replace('tot',data))
+        ThreadCmd(MyText=TextEditor(), cmdline=cmdline.replace('tot',data))
+    
 
 def showcmd(cmdElement):
     global vulCmd, cmdline
@@ -233,14 +245,19 @@ findrevcmdline = ''
 Option menu : 
     - find-rev's configuartion files
 """"""""""""""""""""""""""""""""" 
-FindRevProd= {'cuda':'//sw/gpgpu/eris/cuda.vlcp'}
+FindRevProd= {'v7.1 cuda9.2 r396 ':'//sw/gpgpu/MachineLearning/cudnn_v7.1/eris/cudnn_r92_r396.vlcp',
+              'v7.1 cuda9.1 r390 ':'//sw/gpgpu/MachineLearning/cudnn_v7.1/eris/cudnn_r91_r390.vlcp',
+              'v7.1 cuda9.0 r384 ':'//sw/gpgpu/MachineLearning/cudnn_v7.1/eris/cudnn_r90_r384.vlcp',
+              'v7.1 cuda8.0 r375 ':'//sw/gpgpu/MachineLearning/cudnn_v7.1/eris/cudnn_r80_r375.vlcp',
+              # TODO : v7.1 weekly
+              'cudnn cuda_a':'//sw/gpgpu/MachineLearning/cudnn/eris/cudnn_gpgpu_cuda_a.vlcp'}
 findrevname = '--product=' # must be a "=" blank follow as delimiter
 FindRevCfg = {
             findrevname:FindRevProd,
         }
 
 # blank below in the "components" is a must
-components = [' cudnn ',' [cudnn ',' ]cudnn ']
+components = [' cudnn ',' ]cudnn ',' ]=cudnn ',' cudnn_test ',' ]cudnn_test ',' ]=cudnn_tests ']
 name = ' --revision-range '
 RevDict = {
     name:components
@@ -280,7 +297,10 @@ def showCL(cmdline,CLList):
         print('===>Full cmd : ',cmdline.replace('tot',data))
 
 startRow += 1
-Button(root,text='CL-ALL', command=lambda :showCL(cmdline, CLList)).grid(row=startRow)
+Button(root,text='list-triage', command=lambda :showCL(cmdline, CLList)).grid(row=startRow)
+
+startRow += 1
+Button(root,text='RUN-ALL-CLs', command=lambda :RUNAllCLs(cmdline, CLList)).grid(row=startRow)
 
 root.mainloop()
 

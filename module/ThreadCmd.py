@@ -40,7 +40,7 @@ class ThreadCmd():
         self.dataQueue.put(self.cmdline)
         for line in proc.stdout:
             self.dataQueue.put(line.decode("utf-8")) 
-        proc.stdout.clone()
+        proc.stdout.close()
 
         # TODO How to handle err/out elegantly
         self.dataQueue.put(' ----- Check Error ----- ')
